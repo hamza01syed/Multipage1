@@ -1,6 +1,7 @@
 // pages/index.tsx
 import { FC } from 'react';
 import '@/styles/home.style.css';
+import Link from 'next/link';
 
 const services = [
   { id: 1, title: 'Web Development', description: 'Build modern and responsive websites.' },
@@ -13,9 +14,9 @@ const Home: FC = () => {
     <div className="home-container">
       {/* Hero Section */}
       <section className="hero">
-        <h1>Welcome to Our Website</h1>
+        <h1>Welcome to My Website</h1>
         <p>Your one-stop solution for all your digital needs.</p>
-        <button className="cta-button">Get Started</button>
+        <button className="cta-button"><Link href="/contact">Get in Touch</Link></button>
       </section>
 
       {/* About Section */}

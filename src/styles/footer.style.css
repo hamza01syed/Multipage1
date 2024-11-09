@@ -66,6 +66,9 @@
   
   /* Responsive adjustments */
   @media (max-width: 768px) {
+    .footer{
+      height: auto;
+    }
     .footer-content {
       flex-direction: column;
       align-items: center;
