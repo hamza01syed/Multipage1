@@ -169,10 +169,11 @@ nav {
   /* Mobile responsiveness: Navbar links become stacked on smaller screens */
   @media (max-width: 768px) {
     nav {
-      flex-direction: column;
+      flex-direction: row;
+      justify-content: space-between;
     }
     nav a {
-      margin: 10px 0;
+      margin: 2px 0;
     }
 
     .contact-container {
